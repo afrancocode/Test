@@ -15,7 +15,7 @@ namespace SportsStore.Domain.Entities
 		[HiddenInput(DisplayValue = false)]
 		public int ProductID { get; set; }
 
-		[Required(ErrorMessage="Please enter a product name")]
+		[Required(ErrorMessage = "Please enter a product name")]
 		public string Name { get; set; }
 
 		[DataType(DataType.MultilineText)]
